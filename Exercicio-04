@@ -1,5 +1,4 @@
 Atividade 1: Verificar se um número é positivo, negativo ou zero usando if
-
 #include <stdio.h>
 
 int main() {
@@ -21,7 +20,6 @@ int main() {
 
 
 Atividade 2: Determinar se um ano é bissexto ou não usando if else
-
 #include <stdio.h>
 
 int main() {
@@ -49,7 +47,6 @@ int main() {
 
 
 Atividade 3: Exibir o dia da semana correspondente a um número usando switch
-
 #include <stdio.h>
 
 int main() {
@@ -90,8 +87,6 @@ int main() {
 
 
 Atividade 4: Exibir o maior de dois números inteiros usando o operador ternário
-c
-
 #include <stdio.h>
 
 int main() {
