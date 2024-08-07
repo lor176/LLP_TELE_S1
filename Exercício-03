@@ -3,7 +3,7 @@ Manipulação de Bits é uma técnica de programação que envolve a manipulaç�
 grupos de bits dentro de um número binário. Isso pode incluir operações como definir, limpar, alternar, deslocar e rotacionar bits.
 
 02) Qual a Importância da Manipulação de Bits?
-- Otimização de desempenho: Em alguns casos, a manipulação de bits pode ser mais rápida do que operações aritméticas normais.
+- Otimização de desempenho: Em alguns casos, a manipulação de bits pode ser mais rápida do que operações aritméticas normais
 - Compressão de dados: A manipulação de bits pode ser usada para compactar dados, reduzindo o espaço de armazenamento necessário.
 - Criptografia: A manipulação de bits é fundamental em muitos algoritmos de criptografia.
 - Controle de hardware: Em sistemas embarcados, a manipulação de bits é frequentemente usada para controlar e interagir com dispositivos de hardware.
