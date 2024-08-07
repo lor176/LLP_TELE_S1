@@ -10,7 +10,8 @@ Digite o número 5: 50
 A soma dos números é: 150
 
 Atividade 2: Ler uma matriz 3x3 e calcular a soma dos elementos da diagonal principal usando Array Multidimensional
-O programa lê uma matriz 3x3 do usuário e armazena-a em um array multidimensional. Depois, calcula e soma os elementos da diagonal principal (da esquerda para a direita) usando um loop que itera sobre a diagonal principal da matriz.
+O programa lê uma matriz 3x3 do usuário e armazena-a em um array multidimensional. Depois, calcula e soma os elementos da diagonal principal (da esquerda para a direita) 
+usando um loop que itera sobre a diagonal principal da matriz.
 Saída: (varia de acordo com a entrada do usuário)
 Exemplo de saída:
 Digite o elemento [1][1]: 1
