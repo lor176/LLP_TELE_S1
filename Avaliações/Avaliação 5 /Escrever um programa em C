@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    FILE *file;
+    char line[100];
+
+    // Create a file and open it in write mode
+    file = fopen("my_file.txt", "w");
+    if (file == NULL) {
+        printf("Error creating file!\n");
+        return 1;
+    }
+
+    // Get user input and write it to the file
+    printf("Enter lines of text (type 'exit' to finish):\n");
+    while (1) {
+        printf("> ");
+        fgets(line, 100, stdin);
+        if (strcmp(line, "exit\n") == 0) {
+            break;
+        }
+        fprintf(file, "%s", line);
+    }
+
+    // Close the file
+    fclose(file);
+
+    // Open the file in read mode and display its contents
+    file = fopen("my_file.txt", "r");
+    if (file == NULL) {
+        printf("Error opening file!\n");
+        return 1;
+    }
+
+    printf("File contents:\n");
+    while (fgets(line, 100, file) != NULL) {
+        printf("%s", line);
+    }
+
+    // Close the file
+    fclose(file);
+
+    return 0;
+}
